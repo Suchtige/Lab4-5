@@ -19,6 +19,12 @@ namespace ConsoleApplication1
             this.scrollStrength = scrollStrength;
         }
 
+        public virtual void info()
+        {
+            Console.WriteLine("Код номенклатуры: {0}\nНазвание номенклатуры: {1}\nГрадус: {2}", 
+                scrollID, scrollName, scrollStrength);
+        }
+
         public override string ToString()
         {
             return scrollID.ToString() + ": " + scrollName;

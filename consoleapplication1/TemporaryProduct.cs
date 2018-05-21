@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class TemporaryProduct : product
+    class TemporaryProduct : scroll
     {
         public DateTime StartSelling
         { get; set; }
         public DateTime EndSelling
         { get; set; }
-        public TemporaryProduct(int productID, string productName, scroll scrollID, double productVolume, 
-                                 string productProducer, int productPrice, DateTime StartSelling, DateTime EndSelling) : 
-            base (productID, productName, scrollID, productVolume, productPrice, productProducer)
+        public TemporaryProduct(int scrollID,string scrollName, double scrollStrength, 
+            DateTime StartSelling, DateTime EndSelling) : 
+            base (scrollID, scrollName, scrollStrength)
         {
             this.StartSelling = StartSelling;
             this.EndSelling = EndSelling;

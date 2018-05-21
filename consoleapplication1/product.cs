@@ -25,10 +25,10 @@ namespace ConsoleApplication1
             this.productProducer = productProducer;
         }
 
-        public virtual void info()
+        /*public virtual void info()
         {
             Console.WriteLine("Код товара: {0}\nНазвание товара: {1}\nНоменклатура: {2}\nОбъем: {3}\nПроизводитель: {4}\n" +
                 "Цена: {5}\n", productID, productName, scrollID, productVolume, productProducer, productPrice);
-        }
+        }*/
     }
 }

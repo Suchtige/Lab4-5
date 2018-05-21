@@ -13,7 +13,7 @@ namespace ConsoleApplication1 {
             //product product1 = new product(1, "Балтика", scroll1, 0.5, 70, "Балтика продакшн");
             //product1.info();
             List<TemporaryProduct> listproduct = new List<TemporaryProduct>();
-            listproduct.Add(new TemporaryProduct(1, "Балтика", scroll1, 0.5,"Балтика продакшн", 70,  Start, End));
+            listproduct.Add(new TemporaryProduct(2, "Коньяк",40,  Start, End));
             foreach(TemporaryProduct ff in listproduct)
             {
                 ff.info();
